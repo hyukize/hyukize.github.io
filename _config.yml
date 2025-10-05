@@ -28,13 +28,13 @@ url: "https://hyukize.github.io"
 github:
   username: hyukize # change to your GitHub username
 
-twitter:
-  username: twitter_username # change to your Twitter username
+instagram:
+  username: hyukize # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Jonghyuk Park
+  name: hyukize
   email: hyukize@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: assets/images/bd.png
+avatar: assets/img/me1.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
