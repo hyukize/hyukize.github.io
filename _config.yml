@@ -119,7 +119,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # hyukize/hyukize.github.io
+    repo: hyukize/hyukize.github.io
     repo_id: R_kgDOP8lyAg
     category: Q&A
     category_id: DIC_kwDOP8lyAs4CwRbw
