@@ -1,0 +1,21 @@
+{
+  "name": "HYUKize",
+  "short_name": "HYUKize",
+  "icons": [
+    {
+      "src": "https://hyukize.github.io/assets/favicons/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://hyukize.github.io/assets/favicons/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#fef5e1",
+  "background_color": "#fef5e1",
+  "display": "standalone"
+}
