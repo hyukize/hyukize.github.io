@@ -15,6 +15,16 @@ AI 전반에 열정을 가진 엔지니어입니다.
 
 ---
 
+## 🎓 Education
+
+- **Yonsei University — M.S. in Mechanical Engineering**  
+  *Focus areas:* Computer Vision, Vision AI, Digital Twin (Unity), CAD/CAE  
+  *Key activities:* Built an X-ray foreign-object detection data pipeline and models; developed a video-based fire detection system with AWS alerts; Tiny foreign object detetion from x-ray images
+- **Yonsei University — B.S. in Mechanical Engineering**  
+  *Key activities:* Temporomandibular Disorder Detection Model using Lateral facial X-ray; Autonomous mobile robot project; OpenVINO + drone-based object detection; CAD design and 3D printing.
+
+---
+
 ## 🌟 Highlights
 
 - 🖼️ **Vision AI**  
@@ -24,11 +34,13 @@ AI 전반에 열정을 가진 엔지니어입니다.
 
 - 🎮 **AI + Fun**  
   - 머리 움직임만으로 캐릭터를 조종하는 **클라우드 게임 제작**  
-  - Raspberry Pi + Unity 조합으로 **사내 대회 종합 1위**  
+  - Raspberry Pi + Unity + HPE + Model quantization 조합으로 **사내 대회 종합 1위**  
+  - Lego EV3를 활용한 교육용 강화학습 kit 제작 참여
 
 - 🔍 **Problem Solving with AI**  
-  - X-ray 영상에서 작은 이물질 탐지 (정확도 95%+)  
-  - **화재 탐지 모델 + AWS 알림 시스템** 구축  
+  - 봉제 제품 X-ray 영상에서 작은 이물질 탐지 (정확도 95%+)  
+  - 이미지 채널 합성 + Tracking 기반의 화재 탐지 모델 + AWS 알림 시스템 구축, 특허 출원 및 등록
+  - 영상 깨짐 검출 시스템 개발
 
 ---
 
