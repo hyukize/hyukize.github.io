@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "백준 플래티넘 달성 및 Atcoder 첫 참가 feat. 삼성 광탈"
+title: "백준 플래티넘 달성 & AtCoder 첫 참가 feat. 삼성 광탈"
 date: 2025-10-07 00:08:00 +0900
-categories: [PS, Python]
+categories: [PS]
 tags: [segment tree, two pointer, atcoder, boj, 삼성, 코테]
 toc: true
 ---
