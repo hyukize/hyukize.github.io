@@ -11,16 +11,18 @@ tags: ["openai", "chatgpt", "anthropic", "claude", "api", "llm", "async"]
 
 **REST API** 사용하는 방법도 있으나 **Python SDK** 사용하는 것이 가장 편리
 
-`poetry add openai==1.70.0` 으로 openai python sdk 설치 완료
+`poetry add openai==1.70.0` 으로 openai python sdk를 설치했다.
 
-- Chat Completion API -> 단순한 질의, 이전 대화 기억 x
-- Assistant API, **Response API** -> 대화 상태 관리 기능 보유 (Assistant API는 2026 상반기에 폐지될 예정)
-</br>
+OpenAI API에는 크게 세 가지 종류가 있는데,
+
+- **Chat Completion API** -> 단순한 질의, 이전 대화 기억 x
+- **Assistant API**, **Response API** -> 대화 상태 관리 기능 보유 (**Assistant API**는 2026 상반기에 폐지될 예정)
+<br>
 
 ### Chat Completion API 예제
 
-환경 변수에 OPENAI_API_KEY 가 등록되어 있다면 OpenAI() 가 호출되는 시점에 이를 반영한다고 한다.
-뜯어보니 클래스 내의 \_\_init\_\_() 에서 관련 코드를 확인할 수 있었다.
+환경 변수에 **OPENAI_API_KEY** 가 등록되어 있다면 OpenAI() 가 호출되는 시점에 이를 반영한다고 한다.
+OpenAI 클래스를 뜯어보니 클래스 내의 \_\_init\_\_() 에서 관련 코드를 확인할 수 있었다.
 
 ```python
 import os
@@ -63,11 +65,13 @@ AI 응답:
 
 <br>
 
-role을 통해서 페르소나를 주입할 수 있다....! 알고는 있었지만 직접 해보니 놀랍다.  
+**role**을 통해서 페르소나를 주입할 수 있다....! 알고는 있었지만 직접 해보니 놀랍다.  
 
 <br>
 
 ### Response API 예제
+
+Resonse API의 경우 기존의 Chat Completion API 보다 더 다양한 이벤트들을 감지할 수 있다고 한다.
 
 ```python
 from openai import OpenAI
@@ -269,8 +273,7 @@ if __name__ == "__main__":
 
 <br>
 
-기존의 Chat Completion API 보다 더 다양한 이벤트들을 감지할 수 있다고 한다.
-\+ 나는 유명하지 않다. 당연하지만.. 😒
+ 나는 유명하지 않다. 당연하지만.. 😒
 
 <br>
 
