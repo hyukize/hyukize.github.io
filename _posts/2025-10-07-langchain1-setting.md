@@ -2,6 +2,7 @@
 layout: post
 title: "LangChain을 활용한 RAG 구현 1 - 준비"
 date: 2025-10-07 00:08:00 +0900
+lastmod: 2025-10-07 00:08:00 +0900
 categories: [AI]
 tags: [rag, llm, langchain, langsmith, gpt, openai, dotenv, poetry]
 toc: true

@@ -2,6 +2,7 @@
 layout: post
 title: "LangChain을 활용한 RAG 구현 2 - API와 친해지기"
 date: 2025-10-08 10:30:00 +0900
+lastmod: 2025-10-08 10:30:00 +0900
 category: AI 
 tags: ["openai", "chatgpt", "anthropic", "claude", "api", "llm", "async"]
 ---
